@@ -127,7 +127,7 @@ rke2_agent_node_taints: []
 rke2_token: defaultSecret12345
 
 # RKE2 version
-rke2_version: v1.25.3+rke2r1
+rke2_version: "" # Setting rke2_version will override the RKE2 channel setting. (Example value: "v1.25.3+rke2r1")
 
 # URL to RKE2 repository
 rke2_channel_url: https://update.rke2.io/v1-release/channels
